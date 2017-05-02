@@ -1,7 +1,7 @@
 # coding=utf-8
 import os
 import sys
-reload(sys)
+# reload(sys)
 import json
 import gensim
 import cPickle
@@ -11,7 +11,7 @@ import numpy as np
 from Segment.MySegment import *
 from writeRead.WriteRead import *
 BasePath = sys.path[0]
-sys.setdefaultencoding('utf8')
+# sys.setdefaultencoding('utf8')
 from collections import Counter
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 

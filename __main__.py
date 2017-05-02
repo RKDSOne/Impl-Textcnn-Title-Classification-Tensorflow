@@ -3,8 +3,8 @@
 from textCNN.textcnnModel import *
 from textCNN.textcnnTrain import *
 import sys
-reload(sys)
-sys.setdefaultencoding('utf8')
+# reload(sys)
+# sys.setdefaultencoding('utf8')
 BasePath = sys.path[0]
 '''
     输入：数据集（按用户比例分为训练集，测试集,迭代次数）

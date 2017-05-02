@@ -18,7 +18,7 @@ def impl_prediction(x,y=None):
     output:
         prediction_list: 返回分类结果的list,汉字化类别
     '''
-    check_dir = BasePath + "/runs/1486746418/checkpoints/"
+    check_dir = BasePath + "/runs/1493704620/checkpoints/"
     #分类类别字典
     predictions = predict(x,y,check_dir)
     cate_dict = get_json_data(BasePath + "/data/cate_list.json")
